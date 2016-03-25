@@ -1,0 +1,26 @@
+{
+    "name": "diff",
+    "displayName": "diff",
+    "description": "Syntax highlighting for diff files.",
+    "version": "0.0.1",
+    "publisher": "rafaelmaiolla",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "diff",
+            "aliases": ["Diff", "diff"],
+            "extensions": [".patch",".diff",".rej"],
+            "configuration": "./diff.configuration.json"
+        }],
+        "grammars": [{
+            "language": "diff",
+            "scopeName": "source.diff",
+            "path": "./syntaxes/diff.tmLanguage"
+        }]
+    }
+}
