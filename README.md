@@ -1,13 +1,13 @@
-# README
-## This is the README for your extension "diff"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Diff for VSCode
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+Diff language colorization extension for VSCode.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Usage
 
-**Enjoy!**
+Just install the extension and open any `.diff`, `.patch` or `.rej` file.
+
+
+This is based on the TextMate bundle found on this [repo](https://github.com/textmate/diff.tmbundle).
+
+## License
+[MIT](LICENSE.txt)
